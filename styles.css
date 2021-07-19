@@ -862,7 +862,7 @@ svg.radial-progress:hover text {
 	}
 }
 
-/*************** PORTFOLIO ***************/
+/************** PORTFOLIO **************/
 
 .portfolio {
 	min-height: 100vh;
@@ -985,7 +985,7 @@ svg.radial-progress:hover text {
 	text-align: center;
 	justify-content: center;
 	margin: auto 1rem;
-	padding: 1.5rem 2rem;
+	padding: 1.4rem 2rem;
 	border-radius: 1rem;
 }
 .social-card:hover {
