@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Guillx Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" 
+  href="img/favicon.png" type="image/x-icon" />
+
+   <!-- ICONOS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css">
+
+   <!-- AOS CSS ANIMACIÓN SCROLL -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+  <!-- GLIDE JS CSS ANIMACIÓN SLIDER-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+  
+    <!-- TYPEIT JS ANIMACIÓN ESCRITURA-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+
+    
+    <!-- GSAP GREENSOCK JS ANIMACIONES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+
+    <!-- JQUERY CDN ANIMACIÓN BARRAS + CÍRCULOS HABILIDADES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- NAVBAR MÓVIL -->
+  <div class="mb-nav">
+    <div class="mb-nav-item">
+      <a href="#inicio">
+          <i class="mdi mdi-home"></i>
+        </a>
+    </div>
+
+    <div class="mb-nav-item">
+      <a href="#presentacion">
+          <i class="mdi mdi-hand"></i>
+        </a>
+    </div>
+
+    <div class="mb-nav-item">
+      <a href="#habilidades">
+          <i class="mdi mdi-head-check"></i>
+      </a>
+    </div>
+
+    <div class="mb-nav-item">
+      <a href="#experiencia">
+          <i class="mdi mdi-hammer"></i>
+      </a>
+    </div>
+
+    
+    <div class="mb-nav-item">
+      <a href="#portfolio">
+          <i class="mdi mdi-briefcase"></i>
+        </a>
+    </div>
+
+    <div class="mb-nav-item">
+      <a href="#contacto">
+          <i class="mdi mdi-phone"></i>
+      </a>
+    </div>
+  </div>
+<!-- FIN NAVBAR MÓVIL -->
+
+<!-- NAVBAR -->
+      <div class="nav">
+        <div class="nav-links">
+          <a href="#inicio">
+            <div class="link-name">
+              <i class="mdi mdi-home"></i>
+              <p>Inicio</p>
+            </div>
+          </a>
+  
+          <a href="#presentacion">
+            <div class="link-name">
+              <i class="mdi mdi-hand"></i>
+              <p>Presentación</p>
+            </div>
+          </a>
+  
+          <a href="#habilidades">
+            <div class="link-name">
+              <i class="mdi mdi-head-check"></i>
+              <p>Habilidades</p>
+            </div>
+          </a>
+  
+          <a href="#experiencia">
+            <div class="link-name">
+              <i class="mdi mdi-hammer"></i>
+              <p>Experiencia</p>
+            </div>
+          </a>
+
+          <a href="#portfolio">
+            <div class="link-name">
+              <i class="mdi mdi-briefcase"></i>
+              <p>Portfolio</p>
+            </div>
+          </a>
+  
+          <a href="#contacto">
+            <div class="link-name">
+              <i class="mdi mdi-phone"></i>
+              <p>Contacto</p>
+            </div>
+          </a>
+
+        </div>
+      </div>
+<!-- FIN NAVBAR -->
+
+<!-- HEADER -->
+      <header class="header" id="inicio">
+        <div class="header-left-side">
+          <h3>Hola, me llamo</h3>
+          <h1>Guille.</h1>
+          <h4>Soy <span id="type1"></span></h4>
+          <a href="#contacto">Contacto</a>
+        </div>
+
+        <div class="header-right-side">
+          <div class="circle-bg"></div>
+          <img class="img-moji" src="img/memoji-removed-bg.png" alt="Avatar">
+        </div>
+      </header>
+<!-- FIN HEADER -->
+
+<!-- PRESENTACIÓN -->
+<div class="presentacion" id="presentacion">
+    <div class="titulo-seccion">
+      <i class="mdi mdi-hand"></i>
+      <h1>Presentación</h1>
+    </div>
+    <div class="underline"></div>
+
+    <div class="texto-seccion">
+      <p>
+        Soy Guille y estoy encantado de presentaros mi web. <br>
+        Hasta que llegó el Covid trabajaba de cocinero, pero en octubre de 2020, al ver que la hostelería no tenía futuro a corto plazo, empecé a estudiar un Bootcamp de programación web Full Stack.
+       <br> Mis conocimientos sobre esta materia eran nulos y no tenía muy claro dónde me estaba metiendo, pero pasados unos meses, puedo decir que he descubierto un mundo nuevo, que me gusta y en el que quiero quedarme.
+       <br> A continuación, podrás ver un vídeo en el que hablo un poco sobre mí
+        y sobre mi proyecto de fin de Bootcamp: una aplicación web de compra y venta 
+        de tecnología retro. 
+        Este proyecto, realizado en algo más de 2 meses, está compuesto de
+        un Backend hecho con MySQL, NodeJS y Express y de un Frontend hecho con React. <br><br>
+        Te recomiendo visitar el enlace que aparece debajo del vídeo para saber más cosas sobre mí.
+      </p>
+    </div>
+
+    <!-- <div class="circle-bg-video"></div> -->
+
+    <div class="video-presentacion-container">
+      <iframe 
+      class="video-presentacion"
+       src="https://www.youtube.com/embed/Ls7TDF9yi44?start=1" 
+       title="YouTube video player" 
+       frameborder="0" 
+       allow="accelerometer; autoplay; clipboard-write;
+       encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen></iframe>
+    </div>
+    <div class="under-texto-seccion">
+      Si quieres saber más cosas sobre mí, haz click <a href="#">aquí</a>.
+    </div>
+</div>
+<!-- FIN PRESENTACIÓN -->
+
+<!-- HABILIDADES -->
+<div class="habilidades" id="habilidades">
+  <div class="titulo-seccion">
+    <i class="mdi mdi-head-check"></i>
+    <h1>Habilidades</h1>
+  </div>
+  <div class="underline"></div>
+
+  <div class="texto-seccion">
+    <p>
+      Aquí te presento mis conocimientos de diferentes herramientas utilizadas en el diseño y desarrollo web y también mi nivel de idiomas.
+    </p>
+  </div>
+
+  <div class="habilidades-container">
+    
+     
+      <div class="left-habs">
+       
+        <!-- <div class="habilidad-left bar-uno">
+            <h4><i class="mdi mdi-language-html5"></i> HTML5</h4>
+            <div class="habilidad-line">
+              <div class="habilidad-barra html">
+                <div class="habilidad-porcent" per="80"></div>
+              </div>
+              <span>80%</span>
+            </div>
+        </div>
+
+        <div class="habilidad-left bar-dos">
+          <h4><i class="mdi mdi-language-css3"></i> CSS</h4>
+          <div class="habilidad-line">
+            <div class="habilidad-barra css"></div>
+            <span>70%</span>
+          </div>
+        </div>
+
+        <div class="habilidad-left bar-tres">
+          <h4><i class="mdi mdi-language-javascript"></i> JavaScript</h4>
+          <div class="habilidad-line">
+            <div class="habilidad-barra javascript"></div>
+            <span>50%</span>
+          </div>
+        </div>
+
+        <div class="habilidad-left bar-cuatro">
+          <h4><i class="mdi mdi-react"></i> React</h4>
+          <div class="habilidad-line">
+            <div class="habilidad-barra react"></div>
+            <span>50%</span>
+          </div>
+        </div>
+
+        <div class="habilidad-left bar-cinco">
+          <h4><i class="mdi mdi-nodejs"></i> Node JS</h4>
+          <div class="habilidad-line">
+            <div class="habilidad-barra nodejs"></div>
+            <span>40%</span>
+          </div>
+        </div>
+
+        <div class="habilidad-left bar-seis">
+          <h4><i class="mdi mdi-database"></i> MySQL</h4>
+          <div class="habilidad-line">
+            <div class="habilidad-barra mysql"></div>
+            <span>40%</span>
+          </div>
+        </div> -->
+        <div class="habilidad">
+          <h4><i class="mdi mdi-language-html5"></i> HTML5</h4>
+          <div class="habilidad-bar html bar-uno">
+            <div class="habilidad-per" per="80"></div>
+          </div>
+        </div>
+
+        <div class="habilidad">
+          <h4><i class="mdi mdi-language-css3"></i> CSS</h4>
+          <div class="habilidad-bar css bar-dos">
+            <div class="habilidad-per" per="75"></div>
+          </div>
+        </div>
+
+        <div class="habilidad">
+          <h4><i class="mdi mdi-language-javascript"></i> JavaScript</h4>
+          <div class="habilidad-bar javascript bar-tres">
+            <div class="habilidad-per" per="50"></div>
+          </div>
+        </div>
+
+        <div class="habilidad">
+          <h4><i class="mdi mdi-react"></i> React</h4>
+          <div class="habilidad-bar react bar-cuatro">
+            <div class="habilidad-per" per="50"></div>
+          </div>
+        </div>
+
+        <div class="habilidad">
+          <h4><i class="mdi mdi-nodejs"></i> Node JS</h4>
+          <div class="habilidad-bar nodejs bar-cinco">
+            <div class="habilidad-per" per="40"></div>
+          </div>
+        </div>
+
+        <div class="habilidad">
+          <h4><i class="mdi mdi-database"></i> MySQL</h4>
+          <div class="habilidad-bar mysql bar-seis">
+            <div class="habilidad-per" per="40"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="right-habs">
+        <div class="habilidad-right">
+          <h4>Castellano</h4>
+          <svg class="radial-progress castellano" data-percentage="100" viewBox="0 0 80 80">
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+            <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">100%</text>
+          </svg>
+        </div>
+        
+        <div class="habilidad-right">
+          <h4>Gallego</h4>
+          <svg class="radial-progress gallego" data-percentage="100" viewBox="0 0 80 80">
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+            <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">100%</text>
+          </svg>
+        </div>
+        
+        <div class="habilidad-right">
+          <h4>Inglés</h4>
+          <svg class="radial-progress ingles" data-percentage="70" viewBox="0 0 80 80">
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+            <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+          </svg>
+        </div>
+
+        <div class="habilidad-right">
+          <h4>Alemán</h4>
+          <svg class="radial-progress aleman" data-percentage="30" viewBox="0 0 80 80">
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+            <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">30%</text>
+          </svg>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+<!-- FIN HABILIDADES -->
+
+<!-- EXPERIENCIA -->
+  <div class="experiencia" id="experiencia">
+    <div class="titulo-seccion">
+      <i class="mdi mdi-hammer"></i>
+      <h1>Experiencia</h1>
+    </div>
+    <div class="underline"></div>
+
+    <div class="exp-container">
+      <div class="timeline">
+        <ul>
+          <li>
+            <div class="timeline-content">
+              <h1>Junio 2019-Noviembre 2019</h1>
+              <p class="empresa">
+                Cocinero en <span>'Taste the Way'</span>
+              </p>
+              <p class="experiencia-descripcion">Me encargaba de la preparación de alimentos y mise
+                 en place en un restaurante de comida tradicional gallega en el Camino de Santiago.</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-content">
+              <h1>Enero 2019-Abril 2019</h1>
+              <p class="empresa">
+                Cocinero y dependiente en <span>'La Galiciana'</span>
+              </p>
+              <p class="experiencia-descripcion">Me encargaba de la cocción y preparación de diferentes platos 
+                elaborados con pulpo, mise en place y atención y servicio al cliente en una pulpería de 
+                Santiago de Compostela.</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-content">
+              <h1>Marzo 2016-Julio 2018</h1>
+              <p class="empresa">
+                Cocinero en <span>'Crazy Burrito Shack'</span>
+              </p>
+              <p class="experiencia-descripcion">Me encargaba de la cocción y preparación de alimentos tanto
+                 fríos como calientes, mise en place y atención y servicio al cliente en un restaurante de comida
+                  Tex-Mex en Zürich, Suiza.</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-content">
+              <h1>Noviembre 2015-Enero 2016</h1>
+              <p class="empresa">
+                Ayudante en <span>'Wienachtsdorf'</span>
+              </p>
+              <p class="experiencia-descripcion">Me encargaba de la reposición de alimentos y bebidas y de tareas
+                 básicas de cocina en el mercado navideño central de Zürich, Suiza.</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-content">
+              <h1>Mayo 2015-Septiembre 2015</h1>
+              <p class="empresa">
+                Camarero de sala en <span>'A Lareira'</span>
+              </p>
+              <p class="experiencia-descripcion">Me encargaba del servicio de sala en bautizos, comuniones, 
+                cumpleaños y comidas de empresa en un restaurante de comida tradicional gallega.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<!-- FIN EXPERIENCIA -->
+
+<!-- PORTFOLIO -->
+  <div class="portfolio" id="portfolio">
+    <div class="titulo-seccion">
+      <i class="mdi mdi-briefcase"></i>
+      <h1>Portfolio</h1>
+    </div>
+    <div class="underline"></div>
+
+    <div class="texto-seccion">
+      <p>
+        En esta sección te presento alguno de los trabajos que he realizado para aprender y practicar programación y diseño web.
+        Al hacer clic en cada uno de ellos, podrás ver un vídeo, el link a GitHub y una descripción más detallada del proyecto.
+      </p>
+    </div>
+
+   <div class="proyectos-container">
+      
+    <div class="proyecto">
+        <img src="./img/retrotech.png" alt="">
+        <h3 class="titulo-proyecto-hover">Full Stack</h3>
+        <a href="#" class="btn-ver-mas">Ver Proyecto</a>
+      </div>
+    
+
+     <div class="proyecto">
+      <img src="./img/pic-movies.png" alt="">
+      <h3 class="titulo-proyecto-hover">Front End</h3>
+      <a href="#" class="btn-ver-mas">Ver Proyecto</a>
+    </div>
+
+    <div class="proyecto">
+      <img src="./img/gifs.png" alt="">
+      <h3 class="titulo-proyecto-hover">Front End</h3>
+      <a href="#" class="btn-ver-mas">Ver Proyecto</a>
+    </div>
+
+    <div class="proyecto">
+      <img src="./img/leicadesign.png" alt="">
+      <h3 class="titulo-proyecto-hover">Diseño</h3>
+      <a href="#" class="btn-ver-mas">Ver Proyecto</a>
+    </div>
+
+    <div class="proyecto">
+      <img src="./img/fakebook-app.png" alt="">
+      <h3 class="titulo-proyecto-hover">Diseño</h3>
+      <a href="#" class="btn-ver-mas">Ver Proyecto</a>
+    </div>
+
+    <div class="proyecto">
+      <img src="./img/citas-app.png" alt="">
+      <h3 class="titulo-proyecto-hover">Front End</h3>
+      <a href="#" class="btn-ver-mas">Ver Proyecto</a>
+    </div>
+
+
+    <div class="proyecto">
+      <img src="./img/presupuesto-app.png" alt="">
+      <h3 class="titulo-proyecto-hover">Front End</h3>
+      <a href="#" class="btn-ver-mas">Ver Proyecto</a>
+    </div>
+   </div>
+
+  
+
+
+   
+
+
+
+  </div>
+<!-- FIN PORTFOLIO -->
+
+<!-- CONTACTO -->
+<div class="contacto" id="contacto">
+  <div class="titulo-seccion">
+    <i class="mdi mdi-briefcase"></i>
+    <h1>Contacto</h1>
+  </div>
+  <div class="underline"></div>
+
+
+  <div class="texto-seccion">
+    <p>
+   Si te ha gustado mi web y quieres ponerte en contacto conmigo, a continuación podrás encontrar varios enlacer con las diferentes formas de hacerlo.
+    </p>
+  </div>
+  
+  <div class="cards-container">
+  <a href="https://es.linkedin.com/" class="social-card">
+    <i class="mdi mdi-linkedin"></i>
+    <!-- <h3>Guillermo Gil Vázquez</h3> -->
+  </a>
+
+  <a  href="https://github.com/Guillx" class="social-card">
+    <i class="mdi mdi-github"></i>
+    <!-- <h3>www.github.com/Guillx</h3> -->
+  </a>
+
+  <a  href="#" class="social-card">
+    <i class="mdi mdi-at"></i>
+    <!-- <h3>Guillermo Gil Vázquez</h3> -->
+  </a>
+
+ 
+
+  <a  href="#" class="social-card">
+    <i class="mdi mdi-phone"></i>
+    <!-- <h3>625440474</h3> -->
+  </a>
+  </div>
+
+</div>
+<!-- FIN 
+  
+  CONTACTO -->
+
+<!-- JAVASCRIPT -->
+
+    <!-- CUSTOM JS -->
+      <script src="./index.js"></script>
+    <!-- AOS JS ANIMACIÓN SCROLL -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"></script>
+
+    <!-- GLIDE JS JS ANIMACIÓN SLIDER-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+</body>
+</html>

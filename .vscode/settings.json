@@ -1,0 +1,29 @@
+{
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.lineHeight": 22,
+	"editor.renderLineHighlight": "all",
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"breadcrumbs.enabled": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	"editor.rulers": [60],
+	"prettier.arrowParens": "always",
+	"prettier.bracketSpacing": true,
+	"prettier.htmlWhitespaceSensitivity": "css",
+	"prettier.insertPragma": false,
+	"prettier.jsxBracketSameLine": false,
+	"prettier.jsxSingleQuote": false,
+	"prettier.proseWrap": "preserve",
+	"prettier.quoteProps": "as-needed",
+	"prettier.requirePragma": false,
+	"prettier.semi": true,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 2,
+	"prettier.trailingComma": "es5",
+	"prettier.useTabs": true,
+	"prettier.vueIndentScriptAndStyle": false,
+	"prettier.printWidth": 60
+}
